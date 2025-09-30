@@ -1,0 +1,1 @@
+A simple web application designed with HTML and CSS to showcase information. This project was created as a practice exercise to strengthen front-end development skills and understand the basics of building structured web pages.
