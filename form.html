@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <style>
+        .hd {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 20px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="hd">
+        <img src="logo.png" height="50" width="200">
+        <h1 style="display: inline; margin-left: 350px;">Register Form</h1>
+    </div>
+    <br>
+    <hr>
+    <center>
+        <form action="">
+                <table cellspacing="20">
+                    <tr>
+                        <td>
+                            <label for="fname">Enter your full name<font style="color: red;">*</font> : </label>
+                            <input type="text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Enter your Email Id<font style="color: red;">*</font> : </label>
+                            <input type="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Enter your DOB<font style="color: red;">*</font> : </label>
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender<font style="color: red;">*</font> : </label>
+                            <input type="radio" name="gender">
+                            <label>Male</label>
+                            <input type="radio" name="gender">
+                            <label>Female</label>
+                            <input type="radio" name="gender">
+                            <label>Prefer to not say</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Enter your Mobile Number<font style="color: red;">*</font> : </label>
+                            <input type="number" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Address<font style="color: red;">*</font> : </label>
+                            <textarea cols="30" rows="3"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="my-btn-course">Register now</button>
+                            <input type="reset" value="clear form" class="my-btn-course">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+    </center>
+</body>
+</html>
